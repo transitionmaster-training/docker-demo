@@ -57,7 +57,10 @@ docker exec -it <mycontainer> bash
 ```
 
 Tasks
-- Get the Configuration File content. nginx config file location: /etc/nginx/nginx.conf
+- Get the Nginx Configuration File content. nginx config file location: /etc/nginx/nginx.conf
+```console
+cat /etc/nginx/nginx.conf
+```
 
 To stop a running container, you can use the `docker stop` command followed by the container ID or name:
 ```console
