@@ -4,9 +4,7 @@ az login
 
 az account show
 
-az account set --subscription 34107e3f-ecf0-41b1-b07c-43820b77671b
-
-az aks get-credentials --resource-group docker-demo-rg --name myAksCluster --overwrite-existing
+# Connect Aks Cluster
 
 # Deployment
 kubectl create -f 01-voting-app-deploy.yaml
@@ -18,8 +16,6 @@ kubectl create -f 06-postgres-service.yaml
 kubectl create -f 07-worker-app-deploy.yaml
 kubectl create -f 08-result-app-deploy.yaml
 kubectl create -f 09-result-app-service.yaml
-
-
 
 # Verify the Deployment
 kubectl get deploy
