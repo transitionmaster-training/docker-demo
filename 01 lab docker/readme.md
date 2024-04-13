@@ -1,6 +1,6 @@
 # <font color="red">Transition</font>
 
-# Docker Learning a hands-on lab for beginner.
+# Docker Learning a hands-on lab.
 
 This lab will cover the basics of Docker, including creating Docker containers, managing images, and running containers. 
 
